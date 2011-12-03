@@ -1,0 +1,22 @@
+C:\Users\s\AppData\Local\Temporary Projects\MySynthe\bin\Debug\MySynthe.exe
+C:\Users\s\AppData\Local\Temporary Projects\MySynthe\bin\Debug\MySynthe.pdb
+C:\Users\s\AppData\Local\Temporary Projects\MySynthe\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\s\AppData\Local\Temporary Projects\MySynthe\obj\x86\Debug\MySynthe.Form1.resources
+C:\Users\s\AppData\Local\Temporary Projects\MySynthe\obj\x86\Debug\MySynthe.Properties.Resources.resources
+C:\Users\s\AppData\Local\Temporary Projects\MySynthe\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\s\AppData\Local\Temporary Projects\MySynthe\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\s\AppData\Local\Temporary Projects\MySynthe\obj\x86\Debug\MySynthe.exe
+C:\Users\s\AppData\Local\Temporary Projects\MySynthe\obj\x86\Debug\MySynthe.pdb
+C:\Users\s\AppData\Local\Temporary Projects\MySynthe\obj\x86\Debug\MySynthe.WaveForm.resources
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\obj\x86\Debug\MySynthe.exe
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\obj\x86\Debug\MySynthe.pdb
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\obj\x86\Debug\MySynthe.Form1.resources
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\obj\x86\Debug\MySynthe.Properties.Resources.resources
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\obj\x86\Debug\MySynthe.WaveForm.resources
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\bin\Debug\MySynthe.exe
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\bin\Debug\MySynthe.pdb
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\s\documents\visual studio 2010\Projects\MySynthe\MySynthe\obj\x86\Debug\MySynthe.csproj.ResolveComReference.cache
