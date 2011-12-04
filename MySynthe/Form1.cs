@@ -216,15 +216,15 @@ namespace MySynthe
                 header[43] = 0x0;
 
                 var a = wav.Length * 4;
-                header[40] = (byte)(a % 0xff); a >>= 8;     //Wave Data Length
-                header[41] = (byte)(a % 0xff); a >>= 8;
-                header[42] = (byte)(a % 0xff); a >>= 8;
-                header[43] = (byte)(a % 0xff);// a >>= 8;
+                header[40] = (byte)(a & 0xff); a >>= 8;     //Wave Data Length
+                header[41] = (byte)(a & 0xff); a >>= 8;
+                header[42] = (byte)(a & 0xff); a >>= 8;
+                header[43] = (byte)(a & 0xff);// a >>= 8;
                 a = wav.Length * 4 + 44 - 8;
-                header[4] = (byte)(a % 0xff); a >>= 8;     //Wave Data Length
-                header[5] = (byte)(a % 0xff); a >>= 8;
-                header[6] = (byte)(a % 0xff); a >>= 8;
-                header[7] = (byte)(a % 0xff);// a >>= 8;
+                header[4] = (byte)(a & 0xff); a >>= 8;     //Wave Data Length
+                header[5] = (byte)(a & 0xff); a >>= 8;
+                header[6] = (byte)(a & 0xff); a >>= 8;
+                header[7] = (byte)(a & 0xff);// a >>= 8;
                 var f = new System.IO.FileStream(outfilename, System.IO.FileMode.Create,
                     System.IO.FileAccess.Write);
                 f.Write(header, 0, header.Length);
@@ -250,10 +250,10 @@ namespace MySynthe
                 {
                     //とりま左右チャネルで同じ波形
                     int j = i * 4;
-                    buf[j] = (byte)(wav[i] % 0xff);
-                    buf[j + 1] = (byte)(wav[i] / 0xff);
-                    buf[j + 2] = (byte)(wav[i] % 0xff);
-                    buf[j + 3] = (byte)(wav[i] / 0xff);
+                    buf[j] = (byte)(wav[i] & 0xff);
+                    buf[j + 1] = (byte)((wav[i] & 0xff00) >> 8);
+                    buf[j + 2] = (byte)(wav[i] & 0xff);
+                    buf[j + 3] = (byte)((wav[i] & 0xff00) >> 8);
                 }
 
                 return buf;
